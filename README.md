@@ -25,12 +25,12 @@ Follow these steps to set up and run the SvelteKit Book App locally on your mach
 1.  **Clone the Repository:**
     First, clone this GitHub repository to your local machine:
     ```bash
-    git clone [the repo](https://github.com/MarivoneAraujo/zaazSvelteKit.git)
-    cd sveltekit-books-app # Or whatever your project's root folder is named
+    git clone https://github.com/MarivoneAraujo/zaazSvelteKit.git
+    cd  book-app 
     ```
 
 2.  **Install Dependencies:**
-    Navigate into the project directory (e.g., `cd book-app` if your project is nested within `zaazSvelteKit/book-app/` as per our previous discussion) and install all the necessary Node.js packages:
+    Navigate into the project directory (e.g., `cd book-app`) and install all the necessary Node.js packages:
     ```bash
     # Make sure you are in the directory containing package.json
     npm install
