@@ -2,6 +2,10 @@
 
 This is a tiny SvelteKit application that demonstrates providing and consuming its own API for managing a list of books.
 
+![dm](https://github.com/user-attachments/assets/9826828c-a211-4a19-95aa-c73d6e04de23)
+![li9](https://github.com/user-attachments/assets/38d808d0-e459-474c-b684-ef2c399a46f6)
+
+
 ## Features
 
 * **API (`/api/books`):**
