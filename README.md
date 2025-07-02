@@ -25,7 +25,7 @@ Follow these steps to set up and run the SvelteKit Book App locally on your mach
 1.  **Clone the Repository:**
     First, clone this GitHub repository to your local machine:
     ```bash
-    git clone <your-github-repo-url>
+    git clone [<your-github-repo-url](https://github.com/MarivoneAraujo/zaazSvelteKit.git)
     cd sveltekit-books-app # Or whatever your project's root folder is named
     ```
 
