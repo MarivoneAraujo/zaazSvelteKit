@@ -1,6 +1,54 @@
+# SvelteKit Book App
+
+This is a tiny SvelteKit application that demonstrates providing and consuming its own API for managing a list of books.
+
+## Features
+
+* **API (`/api/books`):**
+    * `GET`: Returns a list of books.
+    * `POST`: Adds a new book to the list.
+* **Front-End:**
+    * Displays books in a card-like layout.
+    * Form to add new books (title, author).
+    * Real-time filtering of books by title.
+    * Loading and empty state messages.
+* **Styling & UX:**
+    * Styled with Tailwind CSS for a modern and responsive design.
+    * Includes a functional **Dark Mode toggle** with preference persistence using local storage.
+
+---
+
+## How to Run This Project
+
+Follow these steps to set up and run the SvelteKit Book App locally on your machine.
+
+1.  **Clone the Repository:**
+    First, clone this GitHub repository to your local machine:
+    ```bash
+    git clone <your-github-repo-url>
+    cd sveltekit-books-app # Or whatever your project's root folder is named
+    ```
+
+2.  **Install Dependencies:**
+    Navigate into the project directory (e.g., `cd book-app` if your project is nested within `zaazSvelteKit/book-app/` as per our previous discussion) and install all the necessary Node.js packages:
+    ```bash
+    # Make sure you are in the directory containing package.json
+    npm install
+    ```
+
+3.  **Start the Development Server:**
+    Once the dependencies are installed, you can start the SvelteKit development server:
+    ```bash
+    npm run dev
+    ```
+
+    The application will typically be accessible at `http://localhost:5173/` in your web browser. The terminal will provide the exact URL.
+
+---
+
 ## Time Spent
 
-This project was time-boxed to **120 minutes**
+This project was time-boxed to **120 minutes**, but included additional time for troubleshooting.
 
 * **Phase 1: Project Setup & API (~45 minutes)**
     * SvelteKit initialization with Tailwind CSS.
